@@ -1,0 +1,23 @@
+{
+  "name": "template-frontend",
+  "version": "0.0.1",
+  "authors": [
+    "Igor [Enkil] Timohin <timohin.i@gmail.com>"
+  ],
+  "description": "Front-End template",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4",
+    "css_browser_selector": "rafaelp/css_browser_selector",
+    "font-awesome": "~4.3.0",
+    "modernizr": "~2.8.3"
+  },
+  "dependencies": {}
+}
