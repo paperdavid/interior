@@ -1,6 +1,6 @@
 .navbar-int {
   border-radius: 0;
-  background: linear-gradient(90deg, #1e69de 0%,#3690f0 100%);
+  background: @gradient-primary;
   border: 0;
   color: #fff;
 
@@ -22,7 +22,7 @@
   }
 
   .dropdown-menu {
-    background: #1e69de + rgba(0, 0, 0, 0.13);
+    background: @brand-primary;
 
     & li>a:hover {
       color: #fff;
@@ -33,4 +33,32 @@
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: rgba(0, 0, 0, 0.13);
+}
+
+
+
+.gr {
+  width: 100%;
+  height: 50px;
+  display: block;
+
+  &-primary {
+    background: @gradient-primary;
+  }
+
+  &-success {
+    background: @gradient-success;
+  }
+
+  &-info {
+    background: @gradient-info;
+  }
+
+  &-danger {
+    background: @gradient-danger;
+  }
+
+  &-warning {
+    background: @gradient-warning;
+  }
 }
