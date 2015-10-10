@@ -8817,24 +8817,53 @@ body
 
     background-color: rgba(255, 255, 255, .1);
 }
+.writeback
+{
+    position: relative;
+
+    overflow: hidden;
+}
 .writeback:before
 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
     display: block;
 
     width: 100%;
-    height: 10px;
+    height: 15px;
 
     content: '';
 
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     background: #fff;
     background: -webkit-linear-gradient(315deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
     background:         linear-gradient(135deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
-    background-size: 180px 10px;
+    background-size: 90px 15px;
 }
 .bg-white
 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     border-radius: 6px;
     background-color: #fff;
+    box-shadow: 0 1px 2px rgba(6, 33, 63, .13);
+}
+.bg-white--contact
+{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(6, 33, 63, .13);
+}
+.jumbotron
+{
+    margin-bottom: 15px;
 }
 .catalog_bg_kitchen_pic
 {
@@ -9116,6 +9145,8 @@ body
 }
 .navbar-int
 {
+    margin-bottom: 0;
+
     color: #fff;
     border: 0;
     border-radius: 0;
@@ -9151,6 +9182,10 @@ body
 .nav .open > a:hover
 {
     background-color: rgba(0, 0, 0, .13);
+}
+.navbar-toggle .icon-bar
+{
+    background-color: #fff;
 }
 .gr
 {
