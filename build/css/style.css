@@ -8791,6 +8791,10 @@ button.close
 /* Set custom or change third-party Less variables */
 /***************************************************/
 /* Third party */
+body
+{
+    background: #f5f8fa;
+}
 .inner
 {
     padding-top: 5rem;
@@ -8826,6 +8830,11 @@ button.close
     background: -webkit-linear-gradient(315deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
     background:         linear-gradient(135deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
     background-size: 180px 10px;
+}
+.bg-white
+{
+    border-radius: 6px;
+    background-color: #fff;
 }
 .catalog_bg_kitchen_pic
 {
