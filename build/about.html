@@ -71,7 +71,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left">
         <li><a href="../../about.html" role="navigation">О компании</a></li>
-        <li><a href="#" role="navigation">Акции</a></li>
+        <li><a href="../../promo.html" role="navigation">Акции</a></li>
         <li><a href="#" role="navigation">Портфолио</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
@@ -97,7 +97,7 @@
         <!-- --------------  О компании  -------------- -->
 
 <div class="about">
-  <div class="container inner">
+  <div class="container inner bg-white">
     <div class="row">
       <div class="col-xs-12 col-sm-3">
         <h2>О компании</h2>
@@ -114,7 +114,7 @@
 <!-- --------------  Слайдер  -------------- -->
 
 <div class="about__slider">
-  <div class="container inner">
+  <div class="container-fluid inner">
     <div class="row">
       <div class="col-xs-12">
         <div class="owl-carousel">
@@ -130,7 +130,7 @@
 <!-- --------------  Info  -------------- -->
 
 <div class="about__info">
-  <div class="container inner">
+  <div class="container inner bg-white">
     <div class="row">
       <div class="col-xs-12 col-sm-3">
         <h2>В чем особенность нашей компании?</h2>
@@ -147,18 +147,32 @@
 
 <!-- --------------  Обратка  -------------- -->
 
-<div class="writeback">
-  <div class="container inner">
+
+  <div class="container inner bg-white writeback">
     <div class="row">
       <div class="col-xs-12 col-sm-3">
         <h2>Свяжитесь с нами!</h2>
       </div>
       <div class="col-xs-12 col-sm-9">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem mollitia aspernatur suscipit accusantium architecto eum velit libero at tempora laboriosam blanditiis eos ea recusandae, eius nobis incidunt rem quae totam nisi ex voluptatibus error repellendus vero consequatur. Consequatur distinctio vitae reprehenderit sunt, voluptate, praesentium perferendis tenetur quaerat, totam dicta eum!</p>
-      </div>
+          <form>
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="email" class="form-control" id="name" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="password" class="form-control" id="email" placeholder="Введите email">
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea class="form-control" rows="3" id="message" placeholder="Введите сообщение"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Отправить</button>
+          </form>
+        </div>
     </div>
   </div>
-</div>
+
 
 
 
