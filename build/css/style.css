@@ -11521,7 +11521,7 @@ h5
     display: block;
 
     width: 100%;
-    height: 5px;
+    height: 10px;
 
     content: '';
 
@@ -11530,7 +11530,7 @@ h5
     background: #fff;
     background: -webkit-linear-gradient(315deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
     background:         linear-gradient(135deg, #fff 20%, #ff0505 20%, #ed2210 40%, #fff 40%, #fff 60%, #3690f0 60%, #1e69de 80%, #fff 80%);
-    background-size: 90px 5px;
+    background-size: 90px 10px;
 }
 .bg-white
 {
