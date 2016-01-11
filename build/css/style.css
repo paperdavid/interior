@@ -11478,6 +11478,18 @@ body
 {
     padding-top: 8rem;
 }
+.inner--small
+{
+    padding: 1em 0;
+}
+.promo-selector > .row.inner:first-child
+{
+    padding-top: 0;
+}
+.promo-selector > .row.inner:last-child
+{
+    padding-bottom: 0;
+}
 .map
 {
     position: relative;
@@ -11494,6 +11506,13 @@ body
     height: 450px;
 
     background-color: rgba(255, 255, 255, .1);
+}
+@media (min-width: 768px)
+{
+    .overlay
+    {
+        display: none;
+    }
 }
 .h1,
 .h2,
